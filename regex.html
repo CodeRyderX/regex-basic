@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="regex.css">
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <h1 class="new">NEW USER SIGN-UP</h1>
+            <form action="">
+            <div class="hold">
+                <input type="text" id="input" name="username" placeholder="Username">
+                <p>User name must be alphanumeric and contain 5-12 characters</p>
+            </div>
+            <div class="hold">
+                <input type="text" name="email" placeholder="Email">
+                <p>Emailmust be a valid address , e.g me@mydomain.com</p>
+            </div>
+            <div class="hold">
+                <input type="password" name="password" placeholder="Password">
+                <p>Password must be alphanumeric(@, - and _ are also included) and be 8-20 characters</p>
+            </div>
+            <div class="hold">
+                <input type="text" name="telephone" placeholder="Telephone">
+                <p>Phone number must be a valid UK number (11 digits)</p>
+            </div>
+            <div class="hold">
+                <input type="text" name="slug" placeholder="Profile-slug">
+                <p>Slug must contain only lowercase letters, numbers and hyphens and be 8-20 characters</p>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="regex.js"></script>
+</body>
+</html>
